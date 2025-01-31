@@ -96,6 +96,19 @@ body {
   width: 55%;
 }
 
+@media (max-width: 1290px) {
+    /* .profile-card {
+      padding: 50px;
+    } */
+    .profile-image {
+      margin-left: -200px;
+    }
+    .shape {
+      right: 12rem;
+      width: 25rem;
+    }
+  }
+
 @media (max-width: 1280px) {
   .profile-card {
     padding: 50px;
@@ -313,8 +326,6 @@ body {
       -50%,
       -50%
     ); /* Offset by half of its own width and height */
-    /* top: 6px;
-    left: 6rem; */
   }
   .profile-image img {
     width: 14.5rem;
@@ -324,10 +335,6 @@ body {
     object-position: top;
   }
   .date-time {
-    /* background-color: #1c73d7;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px; */
     width: 100%;
   }
 }
