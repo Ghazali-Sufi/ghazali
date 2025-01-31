@@ -336,6 +336,21 @@ body {
   .container {
     height: 49rem;
   }
+  .profile-card {
+    margin-top: 190px;
+  }
+  .name {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 393px) {
+    .profile-card {
+        margin-top: 180px;
+      }
+  .name {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 391px) {
@@ -343,15 +358,18 @@ body {
     height: 48rem;
   }
   .name {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 
 @media (max-width: 360px) {
+    .profile-card {
+        margin-top: 200px;
+      }
   .container {
     height: 50rem;
   }
   .name {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
