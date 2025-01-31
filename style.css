@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=Poppins:wght@500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  background-color: #001848;
+}
+
+.container {
+  /* background-color: #011936; */
+  /* background-color: #001848; */
+  background-color: #efc100;
+  width: 70%;
+  height: 40.2rem;
+  margin: auto;
+  margin-block: 30px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.profile-card {
+  padding: 100px;
+  margin-top: 50px;
+}
+.name {
+  font-size: 40px;
+}
+.title-city {
+  display: flex;
+  /* color: #5c5c5c; */
+  /* color: #001848; */
+  color: #013b7f;
+  margin-bottom: 20px;
+}
+.title-city .title {
+  margin-right: 20px;
+}
+.profile-card .bio {
+  width: 30rem;
+  /* background-color: red; */
+  margin-bottom: 20px;
+}
+.social-links {
+  margin-bottom: 10px;
+}
+.social-links img {
+  margin-right: 20px;
+  border: 1px solid #001848;
+  border-radius: 40%;
+  padding: 10px;
+}
+.social-links img:hover {
+  background-color: aliceblue;
+  transition: 0.5s ease;
+}
+.profile-image {
+  z-index: 10;
+  margin-left: -60px;
+}
+.shape {
+  position: absolute;
+  width: 30rem;
+  /* left: 20rem; */
+  right: 15rem;
+}
+.profile-card button {
+  background: none;
+  padding: 16px;
+  border: 1px solid #013b7f;
+  border-radius: 10px;
+  color: #013b7f;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.profile-card button:hover {
+  border: none;
+  background-color: #6caaf1;
+  border: 1px solid #6caaf1;
+  color: #001848;
+  transition: 1s ease;
+}
+
+.date-time {
+  background-color: #1c73d7;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 55%;
+}
+
+@media (max-width: 1280px) {
+  .profile-card {
+    padding: 50px;
+  }
+  .profile-image {
+    margin-left: -100px;
+  }
+  .shape {
+    right: 10rem;
+  }
+}
+
+@media (max-width: 884px) {
+  .container {
+    height: 33.2rem;
+  }
+  .profile-card {
+    padding: 50px;
+    /* margin-top: 50px; */
+  }
+  .profile-image {
+    margin-left: -100px;
+    margin-top: 80.5px;
+  }
+  .profile-image img {
+    width: 280px;
+  }
+  .shape {
+    top: 80px;
+    width: 250px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+  .title-city {
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+
+  .profile-card .bio {
+    width: 20rem;
+    margin-bottom: 15px;
+  }
+  .social-links {
+    margin-bottom: 10px;
+  }
+  .social-links img {
+    margin-right: 20px;
+    border: 1px solid #001848;
+    border-radius: 40%;
+    padding: 10px;
+  }
+  .date-time {
+    /* background-color: #1c73d7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; */
+    width: 82%;
+  }
+}
+
+@media (max-width: 835px) {
+  .container {
+    width: 90%;
+    margin-block: 260px;
+  }
+  .profile-card {
+    padding: 60px;
+    margin-top: 20px;
+  }
+  .profile-image {
+    margin-left: -30px;
+    margin-top: 48.5px;
+  }
+  .profile-image img {
+    width: 300px;
+  }
+  .name {
+    font-size: 35px;
+  }
+  .title-city {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .shape {
+    top: 300px;
+    right: 105px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 90%;
+    margin-block: 260px;
+  }
+  .profile-card {
+    padding: 60px;
+    /* margin-top: 50px; */
+  }
+  .profile-image {
+    margin-left: -75px;
+    margin-top: 48.3px;
+  }
+  .profile-image img {
+    width: 300px;
+  }
+  .profile-card .bio {
+    width: 23rem;
+  }
+  .shape {
+    top: 320px;
+    right: 90px;
+    width: 250px;
+  }
+  .date-time {
+    width: 73%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    height: 32.2rem;
+  }
+  .profile-image {
+    margin-top: 32px;
+  }
+  .shape {
+    right: 70px;
+  }
+  .date-time {
+    width: 72%;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    margin-left: -100px;
+    margin-top: 48px;
+  }
+  .profile-image img {
+    width: 290px;
+  }
+  .shape {
+    right: 50px;
+  }
+}
+
+@media (max-width: 428px) {
+  .container {
+    /* width: 70%; */
+    height: 47rem;
+    margin: auto;
+    margin-block: 50px;
+
+    flex-direction: column;
+  }
+
+  .profile-card {
+    /* padding: 100px; */
+    margin-top: 170px;
+    text-align: center;
+  }
+  .name {
+    font-size: 28px;
+  }
+  .title-city {
+    flex-direction: column;
+    color: #013b7f;
+    font-size: 16px;
+  }
+  .title-city .title {
+    margin: 0;
+  }
+  .profile-card .bio {
+    width: 100%; /* Make the bio width responsive */
+    max-width: 20rem; /* Set a max-width to prevent it from growing too large */
+    margin: 0 auto; /* Center the bio element */
+    text-align: center; /* Center the text */
+    margin-bottom: 25px;
+  }
+  .social-links {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 285px; */
+    /* width: 100%;
+    margin: auto; */
+  }
+  .social-links img {
+    /* margin-right: 20px; */
+    border: 1px solid #001848;
+    border-radius: 40%;
+    padding: 10px;
+  }
+  .social-links img:hover {
+    background-color: aliceblue;
+    transition: 0.5s ease;
+  }
+  .shape {
+    top: 24%;
+    left: 50%;
+    width: 17.5rem;
+    transform: translate(-50%, -50%);
+  }
+  .profile-image {
+    margin: 0;
+    position: absolute;
+    top: 20%; /* Vertical centering */
+    left: 50%; /* Horizontal centering */
+    transform: translate(
+      -50%,
+      -50%
+    ); /* Offset by half of its own width and height */
+    /* top: 6px;
+    left: 6rem; */
+  }
+  .profile-image img {
+    width: 14.5rem;
+    height: 16rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .date-time {
+    /* background-color: #1c73d7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; */
+    width: 100%;
+  }
+}
+
+@media (max-width: 415px) {
+  .container {
+    height: 49rem;
+  }
+}
+
+@media (max-width: 391px) {
+  .container {
+    height: 48rem;
+  }
+  .name {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    height: 50rem;
+  }
+  .name {
+    font-size: 24px;
+  }
+}
