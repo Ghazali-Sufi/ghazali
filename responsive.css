@@ -366,6 +366,15 @@
     width: 20px;
   }
 }
+@media (max-width: 365px) {
+    .container{
+        background-color: red;
+    }
+    .name {
+      font-size: 5px;
+    }
+
+  }
 @media (max-width: 360px) {
     .container{
         background-color: red;
