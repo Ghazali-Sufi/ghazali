@@ -71,10 +71,10 @@
 
 @media (max-width: 1080px) {
   .container {
-    height: 37rem;
+    height: 38rem;
   }
   .name{
-    font-size: 22px;
+    font-size: 23px;
   }
   .profile-image {
     margin-top: 3rem;
