@@ -366,7 +366,7 @@
     width: 20px;
   }
 }
-@media (max-width: 365px) {
+@media (max-width: 375px) {
     .container{
         background-color: red;
     }
