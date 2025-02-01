@@ -183,7 +183,7 @@
     width: 300px;
   }
   .name {
-    font-size: 350px;
+    font-size: 35px;
   }
   .title-city {
     margin-bottom: 15px;
@@ -267,7 +267,7 @@
     text-align: center;
   }
   .name {
-    font-size: 28px;
+    font-size: 280px;
   }
   .title-city {
     flex-direction: column;
