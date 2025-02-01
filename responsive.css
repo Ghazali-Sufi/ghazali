@@ -62,7 +62,7 @@
 
 @media (max-width: 1120px) {
   .container {
-    height: 33.2rem;
+    height: 34.2rem;
   }
   .shape {
     right: 12.5rem;
@@ -71,7 +71,7 @@
 
 @media (max-width: 1080px) {
   .container {
-    height: 400rem;
+    height: 38rem;
   }
   .name{
     font-size: 22px;
