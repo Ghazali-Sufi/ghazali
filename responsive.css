@@ -392,7 +392,7 @@
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 300px) {
     .name {
       font-size: 5px;
     }
