@@ -4,45 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
     <title>Ghazali Profile Card</title>
   </head>
   <body>
     <div class="container">
       <div class="profile-card">
-        <h2 class="name">Mohamed Ghazali</h2>
+        <h2 class="name" data-testid="fullName">Mohamed Ghazali</h2>
         <div class="title-city">
-          <p class="title">Software Developer</p>
-          <p class="city">Mogadishu, Somalia</p>
+          <p class="title" data-testid="jobTitle">Software Developer</p>
+          <p class="city" data-testid="currentLocation">Mogadishu, Somalia</p>
         </div>
-        <p class="bio">
+        <p class="bio" data-testid="shortBio">
           Hello, world! I am Mohamed Ghazali. I’m a Software Engineer with a
           Computer Science background. I am working on AI-Powered applications.
           Ask me anything about Web Development!
         </p>
-        <div class="social-links">
+        <div class="social-links" data-testid="socialLinks">
+          <a href="https://github.com/Ghazali-Sufi"
+            ><img width="46px" src="images/github.png" alt="Github"
+          /></a>
           <a href="https://www.linkedin.com/in/mghazaali"
-            ><img width="52px" src="images/LinkedIn.png" alt=""
+            ><img width="52px" src="images/LinkedIn.png" alt="LinkedIn"
           /></a>
           <a href="https://facebook.com/MGhazaali/"
-            ><img width="45px" src="images/facebook.png" alt=""
+            ><img width="45px" src="images/facebook.png" alt="Facebook"
           /></a>
           <a href="https://www.instagram.com/mghazaali/"
-            ><img width="45px" src="images/instargram.png" alt=""
+            ><img width="45px" src="images/instargram.png" alt="instagram"
           /></a>
           <a href="https://x.com/Mo_Ghazali"
-            ><img width="46px" src="images/Twitter.png" alt=""
+            ><img width="46px" src="images/Twitter.png" alt="Twitter"
           /></a>
         </div>
-        <button>Email: ghazali4me@gmail.com</button>
+        <button data-testid="emailAddress">Email: ghazali4me@gmail.com</button>
         <div class="date-time">
-          <p class="utc-time">2025-01-30 15:47:35</p>
-          <img width="30px" src="images/date-time.png" alt="" />
+          <p class="utc-time" data-testid="currentTimeUTC">2025-01-30 15:47:35</p>
+          <img width="30px" src="images/date-time.png" alt="Date Time" />
         </div>
       </div>
       <div class="profile-image">
-        <img width="400rem" src="images/profile-1.png" alt="" />
+        <img
+          width="400rem"
+          src="images/profile-1.png"
+          alt="profile-picture"
+          data-testid="profilePicture"
+        />
       </div>
-      <img class="shape" src="images/bg.png" alt="" />
+      <img class="shape" src="images/bg.png" alt="Background Shape" />
     </div>
 
     <script src="script.js"></script>
