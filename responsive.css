@@ -368,18 +368,12 @@
 }
 
 @media (max-width: 360px) {
-    .container{
-        background-color: red;
-    }
   .profile-card {
     margin-top: 190px;
   }
   .container {
     height: 48rem;
   }
-  /* .name {
-    font-size: 20px;
-  } */
   .profile-card{
     margin-top: 185px;
   }
