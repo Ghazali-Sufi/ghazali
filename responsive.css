@@ -373,6 +373,15 @@
   .name {
     font-size: 21px;
   }
+  .profile-card{
+    margin-top: 185px;
+  }
+  .profile-image {
+    top: 8.3rem;
+  }
+  .shape {
+    top: 21%;
+  }
 
   .date-time {
     width: 100%;
