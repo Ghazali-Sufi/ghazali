@@ -71,7 +71,7 @@
 
 @media (max-width: 1080px) {
   .container {
-    height: 40rem;
+    height: 400rem;
   }
   .name{
     font-size: 22px;
