@@ -364,6 +364,9 @@
   }
 }
 @media (max-width: 360px) {
+    .container{
+        background-color: red;
+    }
   .profile-card {
     margin-top: 190px;
   }
