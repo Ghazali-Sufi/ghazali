@@ -354,6 +354,9 @@
 }
 
 @media (max-width: 376px) {
+    .container{
+        background-color: red;
+    }
   .name {
     font-size: 21px;
   }
