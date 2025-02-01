@@ -398,9 +398,12 @@
   }
 }
 
-/* @media (max-width: 359px) {
+@media (max-width: 349px) {
+    .container{
+        background-color: red;
+    }
     .name {
       font-size: 5px;
     }
 
-  } */
+  }
