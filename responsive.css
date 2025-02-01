@@ -344,7 +344,7 @@
     margin-top: 180px;
   }
   .name {
-    font-size: 250px;
+    font-size: 25px;
   }
 }
 
@@ -359,7 +359,7 @@
 
 @media (max-width: 376px) {
   .name {
-    font-size: 21px;
+    font-size: 210px;
   }
 
   .date-time img {
