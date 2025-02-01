@@ -325,6 +325,7 @@
 
 @media (max-width: 415px) {
   .container {
+    background-color: red;
     height: 49rem;
   }
   .profile-card {
@@ -354,9 +355,6 @@
 }
 
 @media (max-width: 376px) {
-    .container{
-        background-color: red;
-    }
   .name {
     font-size: 21px;
   }
@@ -366,15 +364,7 @@
     width: 20px;
   }
 }
-@media (max-width: 370px) {
-    .container{
-        background-color: red;
-    }
-    .name {
-      font-size: 5px;
-    }
 
-  }
 @media (max-width: 360px) {
     .container{
         background-color: red;
@@ -386,7 +376,7 @@
     height: 48rem;
   }
   .name {
-    font-size: 8px;
+    font-size: 20px;
   }
   .profile-card{
     margin-top: 185px;
@@ -406,13 +396,3 @@
     width: 20px;
   }
 }
-
-@media (max-width: 355px) {
-    .container{
-        background-color: red;
-    }
-    .name {
-      font-size: 5px;
-    }
-
-  }
