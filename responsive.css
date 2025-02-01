@@ -71,6 +71,7 @@
 
 @media (max-width: 1080px) {
   .container {
+    background-color: red;
     height: 35.2rem;
   }
   .profile-image {
@@ -325,7 +326,6 @@
 
 @media (max-width: 415px) {
   .container {
-    background-color: red;
     height: 49rem;
   }
   .profile-card {
