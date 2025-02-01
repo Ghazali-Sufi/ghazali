@@ -371,7 +371,7 @@
     height: 48rem;
   }
   .name {
-    font-size: 20px;
+    font-size: 19px;
   }
   .profile-card{
     margin-top: 185px;
@@ -392,9 +392,9 @@
   }
 }
 
-@media (max-width: 359px) {
+/* @media (max-width: 359px) {
     .name {
       font-size: 5px;
     }
 
-  }
+  } */
