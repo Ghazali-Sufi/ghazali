@@ -1,17 +1,26 @@
 function updateTime() {
-  const utc_time = document.querySelector(".utc-time");
+  const timeElement = document.querySelector(".utc-time");
 
-//   utc_time.textContent = new Date().toISOString();
+  // Create a new Date object for the user’s local time
+  const now = new Date();
 
- // Get current UTC time, format it and display it
-  utc_time.textContent = new Date()
-    .toISOString()
-    .slice(0, 19)
-    .replace("T", " ");
+  // Format it as YYYY-MM-DD HH:MM:SS
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  const hours = String(now.getHours()).padStart(2, "0");
+  const minutes = String(now.getMinutes()).padStart(2, "0");
+  const seconds = String(now.getSeconds()).padStart(2, "0");
+
+  // Create the formatted date/time string
+  const localTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+
+  // Display the local time in your target element
+  timeElement.textContent = localTime;
 }
 
- // Update the time every second (1000 milliseconds)
-    setInterval(updateTime, 1000);
+// Update the time every second (1000 ms)
+setInterval(updateTime, 1000);
 
-    // Initial call to display time immediately when the page loads
-    updateTime();
+// Show local time immediately on page load
+updateTime();
