@@ -1,18 +1,18 @@
 # Ghazali Profile Card
 - A simple profile card webpage featuring the following:
 
-## Name, job title, and location
-## Short bio
-## Social media links
-## Email link
-## Current UTC time display
-## Responsive design
+  ## Name, job title, and location
+  ## Short bio
+  ## Social media links
+  ## Email link
+  ## Current UTC time display
+  ## Responsive design
 
 # Technologies
-## HTML5: Markup structure
-## CSS3: Styling and responsive design
-## JavaScript: Time handling or any additional scripting (optional in this project)
-## Google Fonts: Custom fonts (Barlow Semi Condensed & Poppins)
+  ## HTML5: Markup structure
+  ## CSS3: Styling and responsive design
+  ## JavaScript: Time handling or any additional scripting (optional in this project)
+  ## Google Fonts: Custom fonts (Barlow Semi Condensed & Poppins)
 
 # Getting Started
 ## Clone the repository
